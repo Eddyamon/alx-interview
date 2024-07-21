@@ -34,4 +34,8 @@ finally:
     print('File size: {}'.format(total_size))
     for key, value in sorted(cache.items()):
         if value != 0:
+<<<<<<< HEAD
             print('{}: {}'.format(key, value))
+=======
+            print('{}: {}'.format(key, value))
+>>>>>>> 57b00830a7f980aca725f6422fdb82a658b3ccb5
